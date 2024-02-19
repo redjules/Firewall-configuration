@@ -13,6 +13,10 @@ Injection attacks can lead to various negative outcomes such as privilege escala
 
 WAF operates at layer 7 of the OSI model and monitors HTTP traffic between the web app and the internet, filtering out any potentially malicious requests by matching typical patterns described in its configured rules the pattern matching will look out for a combination of symbols and keywords that may represent a SQL statement or a shell command and block the communication before it executes on the server.
 
+
+![Screenshot 2024-02-19 at 17 49 01](https://github.com/redjules/Firewall-configuration/assets/106017493/2430a49c-a2a8-4754-9a82-9af772f22b33)
+
+
 We update our Firewall:
 
 ![Screenshot 2024-02-19 at 12 30 26](https://github.com/redjules/Firewall-configuration/assets/106017493/59119661-295f-4845-8c82-ed3bcb89623d)
@@ -97,4 +101,4 @@ and same error message:
 ![Screenshot 2024-02-19 at 17 47 48](https://github.com/redjules/Firewall-configuration/assets/106017493/719ccf17-cafa-4482-af6b-bb992b07e6b9)
 
 
-![Screenshot 2024-02-19 at 17 49 01](https://github.com/redjules/Firewall-configuration/assets/106017493/2430a49c-a2a8-4754-9a82-9af772f22b33)
+
